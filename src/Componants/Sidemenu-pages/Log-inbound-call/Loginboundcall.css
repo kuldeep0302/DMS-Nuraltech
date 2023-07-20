@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .Loginboundcall-container {
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    left: 16rem;
+    top: 127px;
+    width: 83%;
+    height: 76%;
+    background-color: #EFF3FE;
+    overflow: scroll;
+    border-radius: 4px;
+} */
+
+.autocompleteform {
+    border-radius: 10px;
+    background-color: #EFF3FE;
+    font-family: 'Work Sans', sans-serif;
+    width: 83%;
+    position: absolute;
+    left: 16rem;
+    top: 162px;
+    height: 98vh;
+    overflow: scroll;
+}
+
+autocompleteform::-webkit-scrollbar {
+    display: none;
+}
+
+
+.name {
+    margin-left: 7px;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.first-textbox {
+    display: inline-block !important;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.textinput {
+    margin-right: 10px;
+    width: 32%;
+    display: inline-block;
+}
+
+.textinput:first-child {
+    margin-left: 15px;
+}
+
+.MuiFormControl-root{
+    width:300px;
+}
+
+.textinput .MuiInputBase-root {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.Buttons {
+    margin-top: 68px;
+}
+
+.buttonmain {
+    display: flex;
+    height: 40px;
+    margin-left: 16px;
+}
+
+.button-container {
+    display: flex;
+    text-align: left
+}
+
+.button-container button {
+    margin-right: 10px;
+    text-align: center;
+    background-color: #32499F;
+    color: white;
+}
+
+
+.CANCEL {
+    width: 20rem;
+    /* text-align: left; */
+    text-align: center;
+    border-radius: 7px;
+
+
+}
+
+.Save {
+    width: 20rem;
+    text-align: left;
+    border-radius: 7px;
+
+}

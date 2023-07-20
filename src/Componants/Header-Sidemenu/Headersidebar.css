@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+
+}
+
+.sidemenu{
+    width: 15%;
+    display: flex;
+}
+
+.header{
+    width: 85%;
+    display: flexr;
+    justify-content: center;
+}

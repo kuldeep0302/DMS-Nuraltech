@@ -1,0 +1,48 @@
+.setting-container{
+    font-family: 'Work Sans', sans-serif;
+    width: 80%;
+    position: absolute;
+    left: 15rem;
+    top: 154px;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.setting-container::-webkit-scrollbar{
+    display: none;
+}
+
+.Setting_div {
+    font-size: 23px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    /* border: 1px solid black; */
+    margin-left: 26px;
+}
+
+.MASTERS  {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 20px;
+    margin: 31px;
+    font-family: Open Sans;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.Positions {
+    width: 21%;
+    background-color: #32499F;
+    color: white;
+    margin: 24px;
+    height: 40px;
+    padding: 1px;
+    margin-top: 0px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
